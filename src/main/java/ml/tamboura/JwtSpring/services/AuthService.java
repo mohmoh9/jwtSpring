@@ -1,6 +1,8 @@
 package ml.tamboura.JwtSpring.services;
 
 import ml.tamboura.JwtSpring.config.JwtUtils;
+import ml.tamboura.JwtSpring.dto.LoginRequest;
+import ml.tamboura.JwtSpring.dto.SignupRequest;
 import ml.tamboura.JwtSpring.entity.User;
 import ml.tamboura.JwtSpring.repository.UserRepository;
 import org.springframework.security.crypto.password.PasswordEncoder;

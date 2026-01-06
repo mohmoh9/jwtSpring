@@ -3,6 +3,7 @@ package ml.tamboura.JwtSpring.controller;
 import ml.tamboura.JwtSpring.config.JwtUtils;
 import ml.tamboura.JwtSpring.dto.JwtResponse;
 import ml.tamboura.JwtSpring.dto.LoginRequest;
+import ml.tamboura.JwtSpring.dto.SignupRequest;
 import ml.tamboura.JwtSpring.entity.User;
 import ml.tamboura.JwtSpring.services.AuthService;
 import org.springframework.http.ResponseEntity;
